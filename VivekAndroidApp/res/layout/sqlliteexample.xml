@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=" In this app you can save your"
+            android:textColor="#2A0CED"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="faculty mobile no "
+            android:textColor="#2A0CED"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=" Name of the faculty "
+            android:textColor="#1FF2E8"
+            android:textSize="19dp" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/etSQLName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus android:layout_width="match_parent" />
+    </EditText>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="Mobile no "
+            android:textColor="#F01154"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/etSQLMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/bSQLUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Update SQL database " />
+
+    <Button
+        android:id="@+id/bSQLopenView"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="  Speed dial, Please enter Row no: "
+            android:textColor="#3A1FED"
+            android:textSize="19dp" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/etSQLrowInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/bgetInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" GetInfo " />
+
+    <Button
+        android:id="@+id/bSQLmodify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Modify the number " />
+
+    <Button
+        android:id="@+id/bSQLdelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Delete entry " />
+
+</LinearLayout>

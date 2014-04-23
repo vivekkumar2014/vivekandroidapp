@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.viveknew"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.viveknew.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.viveknew.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.viveknew.Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.viveknew.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.viveknew.TextPlay"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.viveknew.SQLLiteExample"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.viveknew.SQLView"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.viveknew.SQLView" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.viveknew.Mobileno"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.viveknew.MyBrowser"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.viveknew.HttpExample"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.example.viveknew.GetMethodEx"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.viveknew.GetMethodEx" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

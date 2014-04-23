@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00"
+        android:textSize="20dp" android:textColor="#1AA1D6"
+        android:text=" * In this app you can count the number of your favourite car brand passing through the road while simultaneously decresing the number if other brand car passes through the road * " />
+
+   
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="  Are you ready to start counting "
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/bfuture"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#18CC1E"
+        android:text="favourite car" />
+
+    <Button
+        android:id="@+id/bpresent"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#F20F44"
+        android:text="other brand car" />
+
+    <Button
+        android:id="@+id/bpast"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#A39608"
+        android:text=" if nothing is passing press this to waste time " />
+
+</LinearLayout>

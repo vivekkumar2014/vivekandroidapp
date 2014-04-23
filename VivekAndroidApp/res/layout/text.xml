@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" *In this app you can type your password and click on button to see your password changing from ** to --, also yo can type left,right and center and type Magic to see what happen *"
+        android:textColor="#15B1D4"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/etCommands"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="type here "
+        android:password="true" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <Button
+            android:id="@+id/bResults"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:text="Magic" />
+
+        <ToggleButton
+            android:id="@+id/tbPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:checked="true"
+            android:text="ToggleButton" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvResults"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#234567"
+        android:text=" android "
+        />
+
+</LinearLayout>
